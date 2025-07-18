@@ -1,0 +1,15 @@
+CREATE DATABASE inf;
+USE inf;
+CREATE TABLE temp1(
+id INT UNIQUE
+);
+
+CREATE DATABASE inf1;
+USE inf1;
+CREATE TABLE emp(
+id INT,
+salaray INT DEFAULT 25000);
+
+INSERT INTO emp(id) VALUES (101);
+
+SELECT * FROM emp;
